@@ -1,0 +1,109 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Mathi/.m2/repository/org/apache/maven/plugins/maven-shade-plugin/3.2.4/maven-shade-plugin-3.2.4.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar;C:/Users/Mathi/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar;C:/Users/Mathi/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar;C:/Users/Mathi/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar;C:/Users/Mathi/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar;C:/Users/Mathi/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar;C:/Users/Mathi/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar;C:/Users/Mathi/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar;C:/Users/Mathi/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar;C:/Users/Mathi/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar;C:/Users/Mathi/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar;C:/Users/Mathi/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar;C:/Users/Mathi/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar;C:/Users/Mathi/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.12.0/maven-artifact-transfer-0.12.0.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar;C:/Users/Mathi/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar;C:/Users/Mathi/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar;C:/Users/Mathi/.m2/repository/org/ow2/asm/asm/8.0/asm-8.0.jar;C:/Users/Mathi/.m2/repository/org/ow2/asm/asm-commons/8.0/asm-commons-8.0.jar;C:/Users/Mathi/.m2/repository/org/ow2/asm/asm-tree/8.0/asm-tree-8.0.jar;C:/Users/Mathi/.m2/repository/org/ow2/asm/asm-analysis/8.0/asm-analysis-8.0.jar;C:/Users/Mathi/.m2/repository/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar;C:/Users/Mathi/.m2/repository/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar;C:/Users/Mathi/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar;C:/Users/Mathi/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar;C:/Users/Mathi/.m2/repository/org/vafer/jdependency/2.4.0/jdependency-2.4.0.jar;C:/Users/Mathi/.m2/repository/org/ow2/asm/asm-util/8.0/asm-util-8.0.jar;C:/Users/Mathi/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar;C:/Users/Mathi/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;C:/Users/Mathi/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:/Users/Mathi/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/Mathi/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar;C:/Users/Mathi/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar;C:/Users/Mathi/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar;C:/Users/Mathi/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar'
+-encoding
+'Cp1252'
+-protected
+-source
+'8'
+-sourcepath
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SimpleAstronomyLib 0.3.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Mathi/Desktop/simple-astronomy-lib/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'SimpleAstronomyLib 0.3.0 API'
+com.bradsbrain.simpleastronomy
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/BaseUtils.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/Declination.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/FullMoonFinder.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/JulianDate.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/MinuntesAndSecondsBase.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/MoonFinder.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/MoonPhaseFinder.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/MoonPosition.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/NewMoonFinder.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/RightAscension.java'
+'C:/Users/Mathi/Desktop/simple-astronomy-lib/src/main/java/com/bradsbrain/simpleastronomy/SunPosition.java'
+C:\Users\Mathi\.m2\repository\org\apache\maven\plugins\maven-shade-plugin\3.2.4\maven-shade-plugin-3.2.4.jar = 1643619681651
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar = 1643619681699
+C:\Users\Mathi\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar = 1643619682013
+C:\Users\Mathi\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar = 1643619682131
+C:\Users\Mathi\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar = 1643619682325
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar = 1643619681778
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar = 1643619682533
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar = 1643619682582
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar = 1643619682629
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar = 1643619682785
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar = 1643619682862
+C:\Users\Mathi\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar = 1643619683084
+C:\Users\Mathi\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar = 1643619683113
+C:\Users\Mathi\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar = 1643619682954
+C:\Users\Mathi\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar = 1643619683010
+C:\Users\Mathi\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar = 1643619682683
+C:\Users\Mathi\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar = 1643619682050
+C:\Users\Mathi\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar = 1643619548504
+C:\Users\Mathi\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar = 1643619682718
+C:\Users\Mathi\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar = 1643619682750
+C:\Users\Mathi\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar = 1643619681932
+C:\Users\Mathi\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar = 1643619681891
+C:\Users\Mathi\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.12.0\maven-artifact-transfer-0.12.0.jar = 1643619683169
+C:\Users\Mathi\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar = 1643619683212
+C:\Users\Mathi\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar = 1643619683285
+C:\Users\Mathi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar = 1643619683515
+C:\Users\Mathi\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar = 1643619683550
+C:\Users\Mathi\.m2\repository\org\ow2\asm\asm\8.0\asm-8.0.jar = 1643619683609
+C:\Users\Mathi\.m2\repository\org\ow2\asm\asm-commons\8.0\asm-commons-8.0.jar = 1643619683669
+C:\Users\Mathi\.m2\repository\org\ow2\asm\asm-tree\8.0\asm-tree-8.0.jar = 1643619683713
+C:\Users\Mathi\.m2\repository\org\ow2\asm\asm-analysis\8.0\asm-analysis-8.0.jar = 1643619683751
+C:\Users\Mathi\.m2\repository\org\jdom\jdom2\2.0.6\jdom2-2.0.6.jar = 1643619683889
+C:\Users\Mathi\.m2\repository\org\apache\maven\shared\maven-dependency-tree\3.0.1\maven-dependency-tree-3.0.1.jar = 1643619683926
+C:\Users\Mathi\.m2\repository\org\eclipse\aether\aether-util\0.9.0.M2\aether-util-0.9.0.M2.jar = 1643619549071
+C:\Users\Mathi\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar = 1643619683383
+C:\Users\Mathi\.m2\repository\org\vafer\jdependency\2.4.0\jdependency-2.4.0.jar = 1643619684013
+C:\Users\Mathi\.m2\repository\org\ow2\asm\asm-util\8.0\asm-util-8.0.jar = 1643619684074
+C:\Users\Mathi\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar = 1643619685115
+C:\Users\Mathi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar = 1643619685142
+C:\Users\Mathi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1643619685165
+C:\Users\Mathi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1643619685206
+C:\Users\Mathi\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar = 1643619685231
+C:\Users\Mathi\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar = 1643619685264
+C:\Users\Mathi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar = 1643619685294
+C:\Users\Mathi\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar = 1643619685483
+C:\Users\Mathi\Desktop\simple-astronomy-lib\src\main\java = 1643617898570
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\allclasses-frame.html = 1643622116322
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\allclasses-index.html = 1643619730290
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\allclasses-noframe.html = 1643622116325
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\allclasses.html = 1643619730298
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\allpackages-index.html = 1643619730292
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\constant-values.html = 1643622116268
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\deprecated-list.html = 1643622116321
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\element-list = 1643619730209
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\help-doc.html = 1643622116329
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\index-all.html = 1643622116318
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\index.html = 1643622116327
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\member-search-index.js = 1643619730283
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\member-search-index.zip = 1643619730284
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\overview-tree.html = 1643622116309
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\package-list = 1643622116255
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\package-search-index.js = 1643619730278
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\package-search-index.zip = 1643619730280
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\script.js = 1643622116329
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\search.js = 1643619730309
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\stylesheet.css = 1643619730305
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\type-search-index.js = 1643619730281
+C:\Users\Mathi\Desktop\simple-astronomy-lib\target\apidocs\type-search-index.zip = 1643619730282

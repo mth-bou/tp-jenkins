@@ -1,0 +1,13 @@
+com\bradsbrain\simpleastronomy\MoonPhaseFinder$MoonPhase.class
+com\bradsbrain\simpleastronomy\RightAscension.class
+com\bradsbrain\simpleastronomy\FullMoonFinder.class
+com\bradsbrain\simpleastronomy\SunPosition.class
+com\bradsbrain\simpleastronomy\MoonPhaseFinder.class
+com\bradsbrain\simpleastronomy\Declination.class
+com\bradsbrain\simpleastronomy\MoonPosition$MoonCorrections.class
+com\bradsbrain\simpleastronomy\BaseUtils.class
+com\bradsbrain\simpleastronomy\NewMoonFinder.class
+com\bradsbrain\simpleastronomy\MoonFinder.class
+com\bradsbrain\simpleastronomy\JulianDate.class
+com\bradsbrain\simpleastronomy\MinuntesAndSecondsBase.class
+com\bradsbrain\simpleastronomy\MoonPosition.class
