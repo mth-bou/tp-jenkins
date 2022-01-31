@@ -2,11 +2,6 @@ pipeline {
 
     agent any
 
-    environment {
-        NEW_VERSION = '1.1.0'
-        SERVER_CREDENTIALS = credentials('123456789')
-    }
-
     stages {
 
         stage("build") {
