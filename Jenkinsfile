@@ -1,5 +1,3 @@
-CODE_CHANGES = getGitChanges()
-
 pipeline {
 
     agent any
@@ -15,7 +13,7 @@ pipeline {
 
             when {
                 expression {
-                    BRANCH_NAME == 'dev' && CODE_CHANGES == true
+                    BRANCH_NAME == 'master'
                 }
             }
 
