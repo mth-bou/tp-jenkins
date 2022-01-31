@@ -55,14 +55,6 @@ pipeline {
         always {
             junit "**/target/surefire-reports/TEST-*.xml"
         }
-
-        success {
-
-        }
-
-        failure {
-
-        }
     }
 
 }
