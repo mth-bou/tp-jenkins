@@ -6,26 +6,14 @@ pipeline {
 
         stage("build") {
 
-            when {
-                expression {
-                    BRANCH_NAME == 'master'
-                }
-            }
-
             steps {
                 echo "Building version ${NEW_VERSION}"
-                bat "mvn clean install"
+                bat "mvn clean package"
             }
 
         }
 
         stage("test") {
-
-            when {
-                expression {
-                    BRANCH_NAME == 'master'
-                }
-            }
 
              steps {
                 echo "Testing the application"
@@ -37,7 +25,7 @@ pipeline {
         stage("deploy") {
 
             steps {
-                echo "Deploying with ${SERVER_CREDENTIALS}"
+                echo "Deploying ..."
             }
 
         }
